@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.heading, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box-2 **/
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 5px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/** box-3 **/
+
+.nav-search{
+    display: flex;
+    background-color: rgb(255, 158, 174);
+    width: 320px;
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 20px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    color: #0f1111;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+
+/** box-4 or 5 **/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box-6 **/
+
+.nav-cart i{
+    font-size: 30px;
+    
+}
+.nav-cart{
+font-size: 0.85rem;
+font-weight: 700;
+margin-left: 20px;
+}
+
+/** head-panel **/
+
+.panel{
+    height: 40px;
+    width: 380px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops {
+   
+   color: white;  
+
+}
+.NavLink{
+    color: white;
+    margin-bottom: -147px;
+}
+.naa{
+    margin-bottom: -147px;
+    color: white;
+
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+
+.logout{
+    margin-left: 10px;
+    margin-top: -5px;
+    background-color: blue;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+}
+.panel-two{
+    height: 10px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.hpd, p{
+    display: flex;
+    
+   align-items: center; 
+    text-align: center;
+    margin-bottom: -1px;
+}
+.navlink{
+    color: black;
+    
+}
+
